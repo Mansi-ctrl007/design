@@ -1,0 +1,106 @@
+@viewport {
+    zoom: 1.0; /* same as initial-scale=1 */
+    width: device-width;
+  }
+body{
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+}
+h1{
+    margin: 100px 300px auto 300px;
+    font-weight: lighter;
+    color: hsl(229, 6%, 66%)
+}
+.heading{
+    margin: auto 300px auto 300px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+}
+.heading1{
+    margin: auto auto auto 300px;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    text-align: top;
+    vertical-align: top;
+}
+.para{
+    margin: auto 300px auto 250px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #d3d1d1;
+}
+.hr1{
+    margin: 100px auto auto auto;
+    border-style: solid;
+    border-width: 2px;;
+    border-color: hsl(180, 62%, 55%);
+}
+.first{
+    margin: 100px auto 100px auto;
+    font-weight: lighter;
+    color: #d3d1d1;
+    position: relative;
+    text-align: left;
+}
+.hr2{
+    margin: 100px auto auto auto;
+    border-style: solid;
+    border-width: 2px;
+    color: hsl(0, 78%, 62%);
+}
+img{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+.second{
+    margin: 100px auto 100px auto;
+    font-weight: lighter;
+    color: #d3d1d1;
+    position: relative;
+    text-align: left;
+}
+.h3{
+    margin: 100px auto auto auto;
+    border-style: solid;
+    border-width: 2px;
+    color: hsl(34, 97%, 64%);
+}
+.third{
+    margin: 100px auto 100px auto;
+    font-weight: lighter;
+    color: #d3d1d1;
+    position: relative;
+    text-align: left;
+}
+.h4{
+    margin: 100px auto auto auto;
+    border-style: solid;
+    border-width: 2px;
+    color: hsl(212, 86%, 64%);
+}
+.forth{
+    margin: 100px auto 100px auto;
+    font-weight: lighter;
+    color: #d3d1d1;
+    position: relative;
+    text-align: left;
+}
+hr{
+    margin: 50px auto auto auto;
+    color: silver;
+    border-style: none;
+    border-width: 1px;
+}
+p{
+    color: cadetblue;
+    text-align: center;
+}
+a{
+    color: rgb(129, 141, 143);
+}
