@@ -1,106 +1,128 @@
-@viewport {
-    zoom: 1.0; /* same as initial-scale=1 */
-    width: device-width;
-  }
 body{
     margin: 0;
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+.top{
+    margin: 50px;
+    background-color: white;
+}
+#content{
+    width: 1010px;
+}
+.holder {
+    width : 500px;
+    height : 400px;
     
+    border : 1px hsl(179, 68%, 75%);
+    display : inline-table;
+    float : left;
+  }
+  @media (max-width: 700px) 
+  {
+   #container {
+       width : 100%;
+    }
+   .holder {
+       width : 100%;
+    }
+  }
+.content{
+    height: 400px;
+    width: 800px;
+    background-color: grey;
+}
+.inner1{
+    background-color: hsl(179, 52%, 56%);
+    padding-top: 90px;
+    padding-right: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+.inner2{
+    background-color: hsl(179, 72%, 65%);
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 90px;
+    padding-bottom: 95px;
+}
+.content-1{
+    background-color: hsl(179, 62%, 60%);
+    padding: 50px;
+    height: 300px;
+    width: 400px;
+}
+.content-2{
+    background-color: hsl(179, 68%, 75%);
+    padding: 50px;
+    height: 300px;
+    width: 400px;
+    position: relative;
+    left: 500px;
+    bottom: 400px;
 }
 h1{
-    margin: 100px 300px auto 300px;
-    font-weight: lighter;
-    color: hsl(229, 6%, 66%)
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+h3{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+}
+h4{
+    color: hsl(218, 22%, 67%);
+    font-weight: 400;
 }
 .heading{
-    margin: auto 300px auto 300px;
-    font-weight: 600;
-    color: hsl(234, 12%, 34%);
+    color: hsl(179, 62%, 90%);
+    font-weight: 700;
 }
-.heading1{
-    margin: auto auto auto 300px;
-    font-weight: 600;
-    color: hsl(234, 12%, 34%);
-    text-align: top;
-    vertical-align: top;
+.fix1{
+    color: white;
+    font-size: 50px;
 }
-.para{
-    margin: auto 300px auto 250px;
-    font-family: 'Poppins', sans-serif;
+.fix2{
+    color: hsl(179, 62%, 60%);
+    font-weight: 700;
+    position: relative;
+    left: 100px;
+    bottom: 75px;
+}
+.fix3{
+    color: hsl(179, 62%, 90%);
     font-weight: 400;
-    color: #d3d1d1;
-}
-.hr1{
-    margin: 100px auto auto auto;
-    border-style: solid;
-    border-width: 2px;;
-    border-color: hsl(180, 62%, 55%);
-}
-.first{
-    margin: 100px auto 100px auto;
-    font-weight: lighter;
-    color: #d3d1d1;
     position: relative;
-    text-align: left;
+    bottom: 50px;
 }
-.hr2{
-    margin: 100px auto auto auto;
-    border-style: solid;
-    border-width: 2px;
-    color: hsl(0, 78%, 62%);
+.fix4{
+    color: hsl(179, 62%, 90%);
+    font-weight: 400;
 }
-img{
-    height: 100px;
-    width: 100px;
-    position: absolute;
-    right: 100px;
-    bottom: 0px;
-}
-.second{
-    margin: 100px auto 100px auto;
-    font-weight: lighter;
-    color: #d3d1d1;
+.myButton {
+	box-shadow: 0px 13px 15px -6px #299983;
+	background-color:#baf21f;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#fcffe8;
+	font-family:Verdana;
+	font-size:17px;
+	font-weight:bold;
+	padding:14px 110px;
+    text-decoration:none;
     position: relative;
-    text-align: left;
+    bottom: 50px;
 }
-.h3{
-    margin: 100px auto auto auto;
-    border-style: solid;
-    border-width: 2px;
-    color: hsl(34, 97%, 64%);
+.myButton:hover {
+	background-color:#72b352;
 }
-.third{
-    margin: 100px auto 100px auto;
-    font-weight: lighter;
-    color: #d3d1d1;
-    position: relative;
-    text-align: left;
+.myButton:active {
+	position:relative;
+	top: 1px;
 }
-.h4{
-    margin: 100px auto auto auto;
-    border-style: solid;
-    border-width: 2px;
-    color: hsl(212, 86%, 64%);
+.attribution{
+    text-align: start;
+    text-decoration: aqua;
 }
-.forth{
-    margin: 100px auto 100px auto;
-    font-weight: lighter;
-    color: #d3d1d1;
-    position: relative;
-    text-align: left;
-}
-hr{
-    margin: 50px auto auto auto;
-    color: silver;
-    border-style: none;
-    border-width: 1px;
-}
-p{
-    color: cadetblue;
+.attribution{
     text-align: center;
-}
-a{
-    color: rgb(129, 141, 143);
 }
